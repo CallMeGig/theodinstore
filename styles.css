@@ -95,7 +95,6 @@ div.display-cards {
     flex: 0 1 auto;
     display: flex;
     flex-direction: column;
-
 }
 
 .card-image {
