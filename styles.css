@@ -95,9 +95,11 @@ div.display-cards {
     flex: 0 1 auto;
     display: flex;
     flex-direction: column;
+
 }
 
 .card-image {
+    height: 190px;
     object-fit: contain;
     border: 5px solid #3882f6;
     border-radius: 5px;
