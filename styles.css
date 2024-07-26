@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+/* ------ Hero Section ------*/
+.hero {
+    background-color: #1F2937;
+    padding: 20px 150px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.store-name,
+.navbar > li > a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+.store-name {
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.heroflex {
+    display: flex;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 40px 0;
+    align-self: center;
+}
+
+.hero-main,
+.hero-secondary,
+.hero-button {
+    color: #F9FAF8;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-secondary {
+    font-size: 24px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 500px;
+}
+
+/*----- Display Section ---*/
+
+.showcase {
+    text-align: center;
+}
+
+.display-header {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin: 50px 0;
+}
+
+div.display-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0 100px;
+}
+
+.card {
+    width: 200px;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    object-fit: contain;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+}
+
+.card-text {
+    margin: 10px 0;
+}
+
+/*----- Quote Section ---*/
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote,
+.author {
+    width: 500px;
+    font-size: 36px;
+}
+.author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.quote {
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+/* CTA Section */
+.cta {
+    margin: 75px 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cta-header,
+.cta-text {
+    color: #E5E7EB;
+}
+
+.cta-header {
+    font-size: 36px;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border: 5px solid #E5E7EB;
+    border-radius: 12px;
+    color: #E5E7EB;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* Footer Section */
+.footer-text {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 36px 0;
+    text-align: center;
+}
